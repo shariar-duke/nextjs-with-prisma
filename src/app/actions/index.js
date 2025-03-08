@@ -25,6 +25,5 @@ export async function createPin(formData) {
     return pin;
   } catch (err) {
     console.error("Error in creating pin", err);
-    throw new Error("Failed to create pin");
   }
 }
